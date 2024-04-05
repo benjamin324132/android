@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   title: "Hypernova Headphones"
 }
 
-export function ProductPage() {
+const ProductPage = () => {
   return (
     <div className="flex flex-col min-h-screen w-full">
       <header className="h-16 w-full flex items-center justify-between border-b px-4">
