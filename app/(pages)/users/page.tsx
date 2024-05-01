@@ -5,6 +5,8 @@ import { DataTable } from "@/components/DataTable";
 import { UsersColumns } from "./_components/tableColumn";
 import { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Users"
 }

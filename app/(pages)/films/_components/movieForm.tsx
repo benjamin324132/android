@@ -77,9 +77,9 @@ const MovieForm = () => {
         <ScrollArea>
           <div className="mx-auto w-full max-w-sm">
             <DrawerHeader>
-              <DrawerTitle>Add new user</DrawerTitle>
+              <DrawerTitle>Add new film</DrawerTitle>
               <DrawerDescription>
-                Set your daily activity goal.
+                Fill all the fields.
               </DrawerDescription>
             </DrawerHeader>
             <div className="p-4">

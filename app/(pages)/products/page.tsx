@@ -247,7 +247,7 @@ const Products = () => {
                 className="overflow-hidden rounded-full"
               >
                 <Image
-                  src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                  src="/placeholder2.svg"
                   width={36}
                   height={36}
                   alt="Avatar"
@@ -350,7 +350,7 @@ const Products = () => {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                            src="/placeholder.svg"
                             width="64"
                           />
                         </TableCell>
@@ -395,7 +395,7 @@ const Products = () => {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                            src="/placeholder.svg"
                             width="64"
                           />
                         </TableCell>
@@ -440,7 +440,7 @@ const Products = () => {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                            src="/placeholder.svg"
                             width="64"
                           />
                         </TableCell>
@@ -485,7 +485,7 @@ const Products = () => {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                            src="/placeholder.svg"
                             width="64"
                           />
                         </TableCell>
@@ -530,7 +530,7 @@ const Products = () => {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                            src="/placeholder.svg"
                             width="64"
                           />
                         </TableCell>
@@ -575,7 +575,7 @@ const Products = () => {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="https://cdn.dribbble.com/userupload/13836421/file/original-b07fdb188bf3ed5e289ea1791345aac0.png?resize=1200x900"
+                            src="/placeholder.svg"
                             width="64"
                           />
                         </TableCell>
