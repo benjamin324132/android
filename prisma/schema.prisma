@@ -34,3 +34,13 @@ generator client {
     createdAt    DateTime   @default(now())
     updatedAt    DateTime   @updatedAt
   }        
+
+  model Transaction {
+    id           String     @id  @default(cuid())
+    name         String
+    category     String     @default("Varios")
+    amount       Int        @default(0)
+    expense      Boolean    @default(true)
+    date         DateTime   @default(now())
+    updatedAt    DateTime   @updatedAt
+  }

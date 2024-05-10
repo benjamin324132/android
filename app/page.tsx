@@ -34,6 +34,9 @@ export default function Home() {
       <Button asChild>
         <Link href="/dashboard">Dashboard</Link>
       </Button>
+      <Button asChild>
+        <Link href="/transactions">Transactions</Link>
+      </Button>
     </div>
   );
 }

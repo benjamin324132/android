@@ -13,3 +13,12 @@ export const movieSchema = z.object({
   img: z.string().url().min(5),
   url: z.string(),
 });
+
+export const transactionSchema = z.object({
+  name: z.string().min(1),
+  category: z.string().min(1),
+  amount: z.string(),
+  expense: z.boolean(),
+});
+
+export type TransactionType = z.infer<typeof transactionSchema>;
