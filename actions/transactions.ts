@@ -36,7 +36,7 @@ export const deleteTransaction = async (id: string) => {
 }
 
 export const analitycsData = async () => {
-   const testdata = await prisma?.transaction.aggregate({
+   const testdata = await prismaDb.transaction.aggregate({
       where:{
        expense: true
       },
