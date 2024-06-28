@@ -30,4 +30,24 @@ const Progress = React.forwardRef<
 ))
 Progress.displayName = ProgressPrimitive.Root.displayName
 
-export { Progress }
+const VerticalProgress = React.forwardRef<
+  React.ElementRef<typeof ProgressPrimitive.Root>,
+  CustomProgressProps
+>(({ className, value, indicatorColor = "bg-primary", ...props }, ref) => (
+  <ProgressPrimitive.Root
+    ref={ref}
+    className={cn(
+      "relative h-32 w-2 overflow-hidden rounded-full bg-secondary rotate-180",
+      className
+    )}
+    {...props}
+  >
+    <ProgressPrimitive.Indicator
+      className={`h-full w-full flex-1 rounded-full transition-all ${indicatorColor}`}
+      style={{ transform: `translateY(-${100 - (value || 0)}%)` }}
+    />
+  </ProgressPrimitive.Root>
+))
+VerticalProgress.displayName = ProgressPrimitive.Root.displayName
+
+export { Progress, VerticalProgress }

@@ -11,9 +11,11 @@ import PaymentCard from "./_components/paymentCard";
 import PaymentMethod from "./_components/paymentMethod";
 import PaymentProcessing from "./_components/paymentProcessing";
 import PricingWidget from "./_components/pricingWidget";
+import StatusWidget from "./_components/statusWidget";
 import StockWidget from "./_components/stockWidget";
 import VoteWidget from "./_components/voteWidget";
 import Weather from "./_components/weather";
+import WeekChart from "./_components/weekChart";
 
 const Page = () => {
   return (
@@ -34,6 +36,8 @@ const Page = () => {
       <ContactUser />
       <StockWidget />
       <ChartWidget />
+      <WeekChart />
+      <StatusWidget />
     </div>
   );
 };

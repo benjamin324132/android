@@ -6,7 +6,7 @@ import { PlusIcon } from "lucide-react";
 const ListWidget = () => {
   return (
     <div className="w-full rounded-3xl p-4 shadow-md">
-      <div className="flex flex-col gap-y-4">
+      <div className="flex flex-col gap-y-3">
         <div className="flex items-center justify-between">
           <h3 className=" font-semibold">Weekly Work done</h3>
           <Button size="icon" className=" rounded-full">
