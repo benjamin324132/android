@@ -4,12 +4,16 @@ import  CalendarWidget  from "./_components/calendarWidget";
 import ChartWidget from "./_components/chartWidget";
 import CheckoutWidget from "./_components/checkoutWidget";
 import ContactUser from "./_components/contactUser";
+import FavouriteStocksWidget from "./_components/favouriteStocksWidget";
 import LevelWidget from "./_components/levelWidget";
+import LienGraph from "./_components/lineGraph";
+import LinkWidget from "./_components/linkWidget";
 import ListWidget from "./_components/listWidget";
 import MusicPlayer from "./_components/musicPlayer";
 import PaymentCard from "./_components/paymentCard";
 import PaymentMethod from "./_components/paymentMethod";
 import PaymentProcessing from "./_components/paymentProcessing";
+import PostWidget from "./_components/postWidget";
 import PricingWidget from "./_components/pricingWidget";
 import StatusWidget from "./_components/statusWidget";
 import StockWidget from "./_components/stockWidget";
@@ -38,6 +42,10 @@ const Page = () => {
       <ChartWidget />
       <WeekChart />
       <StatusWidget />
+      <PostWidget />
+      <LinkWidget />
+      <LienGraph />
+      <FavouriteStocksWidget />
     </div>
   );
 };
